@@ -1,0 +1,60 @@
+body{
+    margin: 50px;
+    background-color: rgb(110, 173, 201);
+    padding: 0;
+    
+    
+}
+ 
+h1{
+    margin: 70px;
+    color: white;
+ }
+
+
+#Cepform{
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin: 0 100px;
+    background-color: white;
+    font-size: 20px;
+    
+    
+}
+
+.row{
+    margin: 20px;
+    
+    
+}
+
+.btn{
+    margin: 10px;
+    font-size: 20px;
+   
+    
+}
+
+.button{
+    margin: 20px;
+    
+}
+
+.btn-secondary{
+    padding: 10px 30px;
+}
+
+.btn-primary{
+    padding: 10px 20px;
+}
+
+.social-icon{
+    font-size: 30px;
+    color: white; 
+    margin: 10px;
+    text-decoration: none;
+    display: flexbox;
+     
+}
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="text-center">Formulário Cadastro</h1>
+    <form id="Cepform">
+    <div class="row g-3">
+        <div class="col-md-6">
+            <label for="inputNome" class="form-label">Nome</label> 
+            <input type="text" class="form-control" id="inputNome" required>
+        </div>
+        <div class="col-md-6">
+            <label for="inputSobrenome" class="form-label">Sobrenome</label> 
+            <input type="text" class="form-control" id="inputSobrenome" required>
+        </div>
+    </div>
+        
+    <div class="row g-3">
+        <div class="col-md-12">
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" required>
+        </div>
+    </div>
+        
+    <div class="row g-3">
+        <div class="col-md-4">
+            <label for="inputEmail4" class="form-label">Email</label> 
+            <input type="email" class="form-control" id="inputEmail4" required>
+        </div>
+        <div class="col-md-4">
+            <label for="inputPassword4" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="inputPassword4" required> 
+        </div>
+        <div class="col-md-4">
+            <label for="inputPassword5" class="form-label">Confirmar Senha</label>
+            <input type="password" class="form-control" id="inputPassword5" required>
+        </div>
+    </div>
+        
+    <div class="row g-3">
+        <div class="col-md-6">
+            <label for="inputAddress" class="form-label">Endereço</label>
+            <input type="text" class="form-control" id="inputAddress"  placeholder="Rua Principal" required>
+        </div>
+        <div class="col-md-2">
+            <label for="inputNúmero" class="form-label">Número</label>
+            <input type="number" class="form-control" id="inputNúmero"required >
+        </div>
+        <div class="col-md-4">
+            <label for="inputComplemento" class="form-label">Complemento </label>
+            <input type="text" class="form-control" id="inputComplemento">
+        </div>
+    </div>
+        
+    <div class="row g-3">
+        <div class="col-md-3">
+            <label for="inputCity" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="inputCity" required>
+        </div>
+        <div class="col-md-3">
+            <label for="inputBairro" class="form-label">Bairro</label>
+            <input type="text" class="form-control" id="inputBairro" required>
+        </div>
+        <div class="col-md-3">
+            <label for="inputState" class="form-label">Estado</label>
+            <input type="text" class="form-control" id="inputState" required>
+        </div>
+        <div class="col-md-3">
+            <label for="inputZip" class="form-label">Cep</label>
+            <input type="text" class="form-control" id="inputZip" placeholder="00000-000" required>
+        </div>
+    </div>
+
+        <div class="col-md-12">
+            <div class="button">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                <button type="reset" class="btn btn-secondary">Limpar</button>
+             </div>
+        </div>
+    </form>
+
+    <div class="col-dm-12">
+        <div class="icones mt-5 text-center">
+            <a class="social-icon" href="https://www.linkedin.com/in/andr%C3%A9-quintanilha-8a37b3242/" aria-label="Perfil no LinkedIn de André Quintanilha">
+            <i class="fab fa-linkedin" aria-hidden="true"></i> Linkedin </a>
+            <a class="social-icon" href="https://github.com/AndreQuintanilha/Formulario_API_Cep.git" aria-label="Projeto no GitHub de André Quintanilha">
+            <i class="fab fa-github" aria-hidden="true"></i> Esse Projeto </a>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
